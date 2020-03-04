@@ -23,8 +23,12 @@ This project involved gathering data from Twitter, here are the ways and needs o
 
 ## Sentminet Analysis
 
-For the sentiment analysis I used a pretrained RNN that was trained on movie reviews
+For the sentiment analysis I used a pretrained RNN that was trained on movie review data, this can be found in the file 'SentimentAnalysis.ipynb'. The files for the pretrained network can be found from this page: 
 
 ## Bot Classification
+
+The Bot classification notbooks can be found in the TwitterAPI folder. In there is the code used to access the twitter API (TwitterAPI.ipynb), and the code where the model was run (TwitterModels.ipynb). 
+
+There is also a file that is used to clean and feature engineer the tweet and user data for the model (dataclean.py).
 
 
