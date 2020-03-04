@@ -21,6 +21,8 @@ This project involved gathering data from Twitter, here are the ways and needs o
 1. Debate Night Tweets for Sentiment Analysis - Gathered using Python Package GetOldTweets3 to search 'date' & 'serach term' such as Febuary 25 for Joe Biden. These resulted in about 440,000 tweets for 6 different candidates. Twitter only allows a certain number of requests therefore more data was not able to be gathered 'DemDebateTweets.ipynb'.
 2. User Data & Tweets for users for Spambot Classifier - Used the Twitter API to gather user data for 20,000 users and around 900,000 tweets 'TwitterAPIcsv/TwitterAPI.ipynb'.
 
+The data anslysis on the sentiment analysis can be found in the file 'EDA2.ipynb'
+
 ## Sentminet Analysis
 
 For the sentiment analysis I used a pretrained RNN that was trained on movie review data, this can be found in the file 'SentimentAnalysis.ipynb'. The files for the pretrained network can be found from this page: 
